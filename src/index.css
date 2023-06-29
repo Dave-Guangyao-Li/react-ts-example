@@ -1,0 +1,100 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins';
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 15rem;
+  height: 9.5rem;
+  border-radius: 1rem;
+  background: #121212;
+  display: flex;
+  flex-direction: column;
+}
+
+.component-title {
+  width: 13rem;
+  height: 1.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 1rem 1rem;
+  margin-bottom: 0rem;
+}
+
+.row-content {
+  display: flex;
+  flex-direction: row;
+  /* padding: 0.5rem; */
+  margin: 0.5rem 1rem;
+}
+
+.row-title {
+  color: #717173;
+  font-size: 0.75rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 4.5rem;
+  height: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.color-display {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.25rem;
+  background: #e15e8f;
+  margin-right: 0.5rem;
+}
+
+.color-code {
+  color: #fff;
+  font-size: 0.75rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 4rem;
+  height: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.color-pick {
+  background: #232325;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center; /* Center the contents vertically */
+  justify-content: center; /* Create equal space on both sides */
+}
+
+.color-pick:hover {
+  cursor: pointer;
+  background: #643eff;
+}
+
+.color-pick img {
+  width: 0.5rem;
+  height: 0.5rem;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
